@@ -1,6 +1,6 @@
-home_dir: "/lustre/pulkit.h/snakemake_local/gut_microbiome_automation/snakemake"
+home_dir: "/lustre/pulkit.h/snakemake_local/gut_microbiome_automation_git"
 r_env_yaml: "../envs/r_env.yml"
 gmwi2_env_yml: "../envs/gmwi2_env.yml"
 r_script: "../scripts/install_packages.R"
 log_file: "../logs/r_packages_installed.log"
-gmwi2_file: "/lustre/pulkit.h/snakemake_local/gut_microbiome_automation/snakemake/GMWI2/src/GMWI2/my.py"
+gmwi2_file: "../GMWI2/src/GMWI2/my.py"
