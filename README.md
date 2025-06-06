@@ -35,7 +35,11 @@ Activate the new environment
 conda activate gut_microbiome_env
 ```
 Please change the base directory path in the config file. Use the repo directory folder for path
-Run Snakemake pipeline
+Run Snakemake pipeline using below command if your conda uses default solver
 ```bash
 snakemake --cores all --use-conda all
+```
+Run Snakemake pipeline using this command if your conda uses mamba solver
+```bash
+snakemake --cores all --use-conda --conda-frontend conda all
 ```
