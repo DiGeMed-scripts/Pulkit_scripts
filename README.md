@@ -12,7 +12,6 @@ This repository contains a fully automated Snakemake pipeline for gut microbiome
 git clone --branch gut_microbiome_automation --single-branch https://github.com/DiGeMed-scripts/Pulkit_scripts.git
 cd Pulkit_scripts
 ```
-
 ## 🛠️ Installation Guide
 
 ### 1. Install Miniconda (if not already installed)
@@ -35,6 +34,7 @@ Activate the new environment
 ```bash
 conda activate gut_microbiome_env
 ```
+Please change the base directory path in the config file. Use the repo directory folder for path
 Run Snakemake pipeline
 ```bash
 snakemake --cores all --use-conda all
