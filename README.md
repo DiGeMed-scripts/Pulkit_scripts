@@ -5,14 +5,13 @@
 This repository contains a fully automated Snakemake pipeline for gut microbiome analysis.
 
 ---
-<pre>
-### 🔄 Clone This Repository (Only Pipeline Branch)
+
+### 🔄 Clone This Repository
 
 ```bash
 git clone --branch gut_microbiome_automation --single-branch https://github.com/DiGeMed-scripts/Pulkit_scripts.git
 cd Pulkit_scripts
 ```
-</pre>
 
 ## 🛠️ Installation Guide
 
