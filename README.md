@@ -1,4 +1,4 @@
-# GREP (Gut-microbiome REporting pipeline)
+# GREP (Gut-microbiome REporting Pipeline)
 
 ## 🧬 Summary
 
