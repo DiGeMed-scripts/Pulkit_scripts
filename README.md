@@ -20,12 +20,15 @@ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```bash
 bash Miniconda3-latest-Linux-x86_64.sh
 ```
+Create New conda environment using given yml file
 ```bash
 conda env create -f envs/gut_snakemake_env.yml
 ```
+Activate the new environment
 ```bash
 conda activate gut_microbiome_env
 ```
+Run Snakemake pipeline
 ```bash
 snakemake --cores all --use-conda all
 ```
