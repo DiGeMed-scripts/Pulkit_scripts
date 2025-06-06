@@ -207,9 +207,10 @@ rule pdf_generation:
     output:
         pdf = f"{home}/output/metaphlan/{sample}_Gut_microbiome.pdf"
     params:
-        script= f"{home}/scripts/HPc_Python_copy.py"
+        script= f"{home}/scripts/HPc_Python_copy.py",
+        home_dir = f"{home}"
     shell:
         """
         pip install reportlab
-        python {params.script} {input.meta} {output.pdf}
+        python {params.script} {input.meta} {output.pdf} {params.home_dir}
         """

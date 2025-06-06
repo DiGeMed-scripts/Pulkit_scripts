@@ -13,17 +13,17 @@ from reportlab.lib.enums import TA_JUSTIFY, TA_CENTER
 from reportlab.platypus import Flowable
 
 
-BASE_PATH="/lustre/pulkit.h/snakemake_local/gut_microbiome_automation/snakemake/input/Report_generation/"
+BASE_PATH=sys.argv[3]
 CSV_PATH= sys.argv[1]
-TEXT_CSV_PATH=f"/lustre/pulkit.h/snakemake_local/gut_microbiome_automation/snakemake/input/Report_generation/static_texts.csv"
-LOGO1_PATH="/lustre/pulkit.h/snakemake_local/gut_microbiome_automation/snakemake/input/Report_generation/DiGeMed_logo.png"
-LOGO2_PATH="/lustre/pulkit.h/snakemake_local/gut_microbiome_automation/snakemake/input/Report_generation/igib_logo.png"
-REPORT_PATH="/lustre/pulkit.h/snakemake_local/gut_microbiome_automation/snakemake/output/metaphlan/"
-Firts_page_Image="/lustre/pulkit.h/snakemake_local/gut_microbiome_automation/snakemake/input/Report_generation/gut_microbiome_ND.png"
+TEXT_CSV_PATH=f"{BASE_PATH}/input/Report_generation/static_texts.csv"
+LOGO1_PATH=f"{BASE_PATH}/input/Report_generation/DiGeMed_logo.png"
+LOGO2_PATH=f"{BASE_PATH}/input/Report_generation/igib_logo.png"
+REPORT_PATH=f"{BASE_PATH}/output/metaphlan/"
+Firts_page_Image=f"{BASE_PATH}/input/Report_generation/gut_microbiome_ND.png"
 Output_Path=sys.argv[2]
-First_page_Canva="/lustre/pulkit.h/snakemake_local/gut_microbiome_automation/snakemake/input/Report_generation/First_page.png"
-Second_page_Canva="/lustre/pulkit.h/snakemake_local/gut_microbiome_automation/snakemake/input/Report_generation/Second_page.png"
-Third_page_Canva="/lustre/pulkit.h/snakemake_local/gut_microbiome_automation/snakemake/input/Report_generation/Third_page.png"
+First_page_Canva=f"{BASE_PATH}/input/Report_generation/First_page.png"
+Second_page_Canva=f"{BASE_PATH}/input/Report_generation/Second_page.png"
+Third_page_Canva=f"{BASE_PATH}/input/Report_generation/Third_page.png"
 '''
 # Define paths at the top for easy modification
 # Get paths from command-line arguments
