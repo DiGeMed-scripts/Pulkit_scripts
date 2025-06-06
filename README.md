@@ -1,8 +1,8 @@
-# Gut Microbiome Automation Pipeline
+# GREP (Gut-microbiome REporting pipeline)
 
-## 🧬 Abstract
+## 🧬 Summary
 
-This repository contains a fully automated Snakemake pipeline for gut microbiome analysis. It integrates tools such as **Python**, **R**, and **Snakemake** to perform preprocessing, taxonomic profiling using MetaPhlAn, diversity calculations, and detailed report generation.
+This repository contains a fully automated Snakemake pipeline for gut microbiome analysis.
 
 ---
 
