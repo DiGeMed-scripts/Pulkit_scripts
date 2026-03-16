@@ -2,6 +2,7 @@ name: gut_microbiome_env
 channels:
   - conda-forge
   - defaults
+  - bioconda
 dependencies:
   - python=3.12
   - mamba
